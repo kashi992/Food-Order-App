@@ -1,17 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
-import Button from 'react-bootstrap/Button';
+import "./App.css";
+import Header from "./components/Layout/Header";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <Button>Test</Button>
-       
-      </header>
-    </div>
+    <>
+      <Header />
+    </>
   );
 }
-
 export default App;
