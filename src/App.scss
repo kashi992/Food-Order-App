@@ -1,4 +1,8 @@
 @import "~bootstrap/scss/bootstrap";
 @import "./styles/variable";
+@import "./styles/global";
 @import "./components/Layout/header";
 @import "./components/Layout/headerCartButton";
+@import "./components/Meals/mealSummary";
+@import "./components/Meals/availableMeals";
+@import "./components/Meals/MealItem/mealItem";
