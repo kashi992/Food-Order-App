@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar, Container, Nav} from "react-bootstrap";
+import { Navbar, Container, Nav } from "react-bootstrap";
 import mealImg from "../../assets/images/meals.jpg";
 import HeaderCartButton from "./HeaderCartButton";
 
@@ -13,7 +13,7 @@ const Header = (props) => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
               {/* <Nav.button href="#home">Home</Nav.button> */}
-              <HeaderCartButton/>
+              <HeaderCartButton onClick={props.onCartClick} />
             </Nav>
           </Navbar.Collapse>
         </Container>
